@@ -6,11 +6,5 @@ module.exports = {
             "firebasestorage.googleapis.com",
         ],
     },
-    future: {
-    webpack5: true,
-    },
-    webpack: function (config, options) {
-    config.experiments = {};
-    return config;
-    },
+    webpack5: false,
 };
