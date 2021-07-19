@@ -12,6 +12,7 @@
     "@netlify/plugin-nextjs": "^3.7.1",
     "firebase": "^8.7.1",
     "firebase-admin": "^9.11.0",
+    "google-auth-library": "^7.3.0",
     "next": "11.0.1",
     "next-auth": "^3.27.3",
     "react": "17.0.2",

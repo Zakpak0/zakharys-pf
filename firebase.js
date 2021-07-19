@@ -1,13 +1,6 @@
 import firebase from "firebase";
 import "firebase/storage"
 
-var admin = require("firebase-admin");
-
-var serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyDYiHuaxZjO3-zqykNqh7dJ9Fdf4euOL0I",
